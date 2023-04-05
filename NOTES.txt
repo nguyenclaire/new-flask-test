@@ -1,0 +1,12 @@
+How to create a virtual environment:
+1. pip install virtualenv
+2. virtualenv myenv
+	- This is will create a folder of all the necessary files for a python environment
+3. myenv\Scripts\activate
+	- This command activates it
+	- It should now look like (myenv) $
+4. pip install Flask
+	- or pip install whatever else you need
+	- segyio, etc.
+5. deactivate
+	- this deactivates your environment
